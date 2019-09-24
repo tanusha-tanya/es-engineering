@@ -1,0 +1,206 @@
+doctype html
+html.no-js(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+        meta(name="description" content="HUB.store - the best games")
+        meta(name="keywords" content="HUB.store, games, xbox")
+        meta(property='og:title', content='HUB.store - the best games')
+        meta(property='og:description', content='HUB.store, games, xbox')
+        meta(property='og:image', content=' ')
+        meta(property='og:type', content='article')
+        meta(property='og:url', content='')
+        meta(name="robots" content="noindex, nofollow")
+        link(rel="shortcut icon", href="../../../xbox.png", type="image/x-icon")
+        link(href="https://fonts.googleapis.com/css?family=Roboto|Suez+One&display=swap" rel="stylesheet")
+        script.
+            var ajax = new XMLHttpRequest();
+            ajax.open("GET", "images/sprite.svg", true);
+            ajax.send();
+            ajax.onload = function (e) {
+            var div = document.createElement("div");
+            div.style.border = '0';
+            div.style.clip = 'rect(0 0 0 0)';
+            div.style.overflow = 'hidden';
+            div.style.margin = '-1px';
+            div.style.padding = '0';
+            div.style.position = 'absolute';
+            div.style.width = '1px';
+            div.style.height = '1px';
+            div.innerHTML = ajax.responseText;
+            document.body.insertBefore(div, document.body.childNodes[0]);
+            };
+        link(rel="stylesheet" href="styles/main.css")
+        title HUB.store - the best games
+        script(src="scripts/libs.js")
+    body        
+        header.header
+            .container
+                .header-content
+                    .header-burger
+                        .header-burger-line 
+                            span                    
+                    svg.header-logo(role="img")(width="70")(height="60"): use(xlink:href="#logo_top") 
+                    nav.header-nav             
+                        a(href="#", title="Home").header-nav-link.header-nav-link__active Home
+                        a(href="#", title="Products").header-nav-link Products
+                        a(href="#", title="Delivery").header-nav-link Delivery
+                        a(href="#", title="Support").header-nav-link Support
+                        a(href="#", title="Contacts").header-nav-link Contacts
+                        .header-nav-wrapper 
+                    form(action="#").header-search
+                        label.header-search-label
+                            input(type="search" placeholder="Search here").header-search-input
+                        button(type="submit" title="Search").header-search-button
+                            svg.header-search-svg(role="img")(width="20")(height="20"): use(xlink:href="#search") 
+                    a(href="#" title="Sign up").header-signup Sign up
+        main.main
+            section.carousel
+                h1.hidden HUB.store
+                .container 
+                    .carousel-items.owl-theme.owl-carousel 
+                        .carousel-item
+                            .carousel-item-content
+                                h2.carousel-item-title Games play best 
+                                    span on Xbox One X
+                                .carousel-item-text
+                                    p play over
+                                        strong &nbsp;1.300 games&nbsp;
+                                        | on the console designed to play the best past, present and future.
+                                a(href="#" title="Learn more").carousel-item-link.morelink Learn more
+                        .carousel-item
+                            .carousel-item-content
+                                h2.carousel-item-title Games play best 
+                                    span on Xbox One X
+                                .carousel-item-text
+                                    p play over
+                                        strong &nbsp;1.300 games&nbsp;
+                                        | on the console designed to play the best past, present and future.
+                                a(href="#" title="Learn more").carousel-item-link.morelink Learn more
+                        .carousel-item
+                            .carousel-item-content
+                                h2.carousel-item-title Games play best 
+                                    span on Xbox One X
+                                .carousel-item-text
+                                    p play over
+                                        strong &nbsp;1.300 games&nbsp;
+                                        | on the console designed to play the best past, present and future.
+                                a(href="#" title="Learn more").carousel-item-link.morelink Learn more
+                    .carousel-nav
+                        .carousel-dots
+                        .carousel-arrows
+            section.middle 
+                h2.hidden Items               
+                .container
+                    aside.middle-aside
+                        a.middle-aside-link(href="#" title="Xbox Live") 
+                            img.middle-aside-img(alt="Xbox Live" src="/assets/icons/xbox.png")  
+                            .middle-aside-name Xbox Live
+                        a.middle-aside-link(href="#" title="Consoles") 
+                            img.middle-aside-img(alt="Consoles" src="/assets/icons/consoles.png")  
+                            .middle-aside-name Consoles
+                        a.middle-aside-link(href="#" title="Accessories") 
+                            img.middle-aside-img(alt="Accessories" src="/assets/icons/accessories.png")  
+                            .middle-aside-name Xbox Live
+                        a.middle-aside-link(href="#" title="Discounts") 
+                            img.middle-aside-img(alt="Discounts" src="/assets/icons/discounts.png")  
+                            .middle-aside-name Xbox Live
+                    .middle-articles
+                        article.middle-article
+                            figure.middle-article-figure
+                                img.middle-article-img(src="/assets/borderlands.png" alt="Borderlands")
+                                figcaption.middle-article-figcaption
+                                    h3.middle-article-h3 Borderlands 3
+                                    .middle-article-slogan  
+                                        P Mayhen is coming
+                                    a.middle-article-more(href="#" title="more") More 
+                        article.middle-article
+                            figure.middle-article-figure
+                                img.middle-article-img(src="/assets/designlab.png" alt="Design Lab")
+                                figcaption.middle-article-figcaption
+                                    h3.middle-article-h3 Design Lab
+                                    .middle-article-slogan  
+                                        P Design your controller
+                                    a.middle-article-more(href="#" title="more") More 
+                        article.middle-article
+                            figure.middle-article-figure
+                                img.middle-article-img(src="/assets/xbox.png" alt="Xbox Pass")
+                                figcaption.middle-article-figcaption
+                                    h3.middle-article-h3 Xbox Pass
+                                    .middle-article-slogan 
+                                        P Start at September
+                                    a.middle-article-more(href="#" title="more") More 
+                        article.middle-article
+                            figure.middle-article-figure
+                                img.middle-article-img(src="/assets/age.png" alt="Age of Empires 2")
+                                figcaption.middle-article-figcaption
+                                    h3.middle-article-h3 Age of Empires 2
+                                    .middle-article-slogan 
+                                        P DefinitiveEdition
+                                    a.middle-article-more(href="#" title="more") More 
+                        article.middle-article
+                            figure.middle-article-figure
+                                img.middle-article-img(src="/assets/gears.png" alt="Gears 5")
+                                figcaption.middle-article-figcaption
+                                    h3.middle-article-h3 Gears 5
+                                    .middle-article-slogan
+                                            P  Ultimate Edition
+                                    a.middle-article-more(href="#" title="more") More 
+                        article.middle-article
+                            figure.middle-article-figure
+                                img.middle-article-img(src="/assets/x019.png" alt="X019")
+                                figcaption.middle-article-figcaption
+                                    h3.middle-article-h3 X019
+                                    .middle-article-slogan 
+                                        p London exhibition
+                                    a.middle-article-more(href="#" title="more") More 
+                        a(href="#" title="Visit official website").middle-articles-link.morelink Visit official website
+            section.bottom 
+                .container  
+                    .bottom-content
+                        .bottom-content-left 
+                            h2.bottom-content-title Stream games
+                                span  on your Xbox or PC
+                            .bottom-content-text
+                                p Stream X019 on your Xbox One or on 
+                                    a(href="#" title="Mixer.com") Mixer.com
+                                    | .
+                                p Or watch on the go with Mixer mobile app for IOS and Android.
+                            a(href="#" title="Visit official website").bottom-content-link.morelink Learn more
+                        .bottom-content-right 
+                            img.bottom-content-img(alt="Mixer" src="/assets/mixer.png")
+        footer.footer
+            .container
+                .footer-content   
+                    .footer-column
+                        svg.footer-logo(role="img")(width="50")(height="50"): use(xlink:href="#logo_bot") 
+                        .footer-copy Copyright &#169; HUB.store All rights reserved
+                        .footer-soc
+                            a(href="#" title="Pinterest").footer-soc-link
+                                svg.footer-soc-icon( role="img")(width="19")(height="19"): use(xlink:href="#pinterest") 
+                            a(href="#" title="Twitter").footer-soc-link
+                                svg.footer-soc-icon( role="img")(width="19")(height="19"): use(xlink:href="#twitter") 
+                            a(href="#" title="Facebook").footer-soc-link
+                                svg.footer-soc-icon(role="img")(width="19")(height="19"): use(xlink:href="#facebook") 
+                    .footer-column
+                        nav.footer-nav
+                            a(href="#" title="Products").footer-nav-link.footer-nav-link__top Products
+                            a(href="#" title="Features").footer-nav-link Features
+                            a(href="#" title="Personal License").footer-nav-link Personal License
+                            a(href="#" title="Business License").footer-nav-link Business License
+                            a(href="#" title="Pricing Options").footer-nav-link Pricing Options
+                    .footer-column
+                        nav.footer-nav
+                            a(href="#" title="Products").footer-nav-link.footer-nav-link__top Company
+                            a(href="#" title="Features").footer-nav-link About
+                            a(href="#" title="Personal License").footer-nav-link Careers
+                            a(href="#" title="Business License").footer-nav-link BLog
+                            a(href="#" title="Pricing Options").footer-nav-link Contact
+                    .footer-column
+                        nav.footer-nav
+                            a(href="#" title="Support").footer-nav-link.footer-nav-link__top Support
+                            a(href="#" title="Support center").footer-nav-link Support center
+                            a(href="#" title="Help Desk").footer-nav-link Help Desk
+                            a(href="#" title="FAQ").footer-nav-link FAQ
+        script(src="scripts/all.js")

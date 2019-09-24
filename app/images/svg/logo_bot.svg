@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="61.75" height="61.75" viewBox="0 0 61.75 61.75">
+  <g id="Group_22" data-name="Group 22" transform="translate(-183 -2469)">
+    <g id="Logo_Blue_Small" data-name="Logo / Blue / Small" transform="translate(213.875 2469) rotate(45)">
+      <g id="Logo_Blue_Small-2" data-name="Logo / Blue / Small">
+        <rect id="Rectangle" width="12.475" height="12.475" rx="6.238" transform="translate(31.188 15.594)" fill="#f8a113"/>
+        <rect id="Rectangle-2" data-name="Rectangle" width="12.475" height="12.475" rx="6.238" transform="translate(0 15.594)" fill="#21567e"/>
+        <rect id="Rectangle-3" data-name="Rectangle" width="12.475" height="12.475" rx="6.238" transform="translate(15.594 31.188)" fill="#12a37a"/>
+        <path id="Rectangle-4" data-name="Rectangle" d="M6.238,0A6.238,6.238,0,1,1,0,6.238,6.238,6.238,0,0,1,6.238,0Z" transform="translate(15.594)" fill="#3bc2ee"/>
+      </g>
+    </g>
+    <g id="Logo" transform="translate(220.191 2493.559) rotate(90)">
+      <g id="Logo_Blue_Small-3" data-name="Logo / Blue / Small">
+        <g id="Logo_Blue_Small-4" data-name="Logo / Blue / Small">
+          <rect id="Rectangle-5" data-name="Rectangle" width="3.609" height="3.609" rx="1.804" transform="translate(9.022 4.511)" fill="#21567e"/>
+          <rect id="Rectangle-6" data-name="Rectangle" width="3.609" height="3.609" rx="1.804" transform="translate(0 4.511)" fill="#21567e"/>
+          <rect id="Rectangle-7" data-name="Rectangle" width="3.609" height="3.609" rx="1.804" transform="translate(4.511 9.022)" fill="#026fc2"/>
+          <rect id="Rectangle-8" data-name="Rectangle" width="3.609" height="3.609" rx="1.804" transform="translate(4.511)" fill="#026fc2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
